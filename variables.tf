@@ -1,6 +1,6 @@
 variable "region" {
   description = "AWS region"
-  default     = "us-west-1"
+  default     = "ap-south-1"
 }
 
 variable "instance_type" {
@@ -13,3 +13,10 @@ variable "instance_name" {
   default     = "Provisioned by Terraform"
 }
 
+variable "AWS_SECRET_ACCESS_KEY" {
+  default = "aj6jT7wlpIldehmcEa9qL5e5Nulf2m/zhQuncPkt"
+}
+
+variable "AWS_ACCESS_KEY_ID" {
+  default = "AKIAQBJH7W7J6EREIPUW"
+}
